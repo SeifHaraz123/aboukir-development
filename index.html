@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Open+Sans:wght@400;500;600;700&family=Press+Start+2P&family=Roboto:wght@700&family=Rubik+Mono+One&family=Tektur:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <title>ابو قير للتطوير العقاري</title>
+  </head>
+  <body>
+    <!-- Start Settings -->
+
+    <div class="settings">
+      <div class="settings-container">
+        <div class="settings-option">
+          <h4>لون الصفحة</h4>
+          <ul class="colors-list">
+            <li class="active" data-color="#c51350e5"></li>
+            <li data-color="#e91e63e5"></li>
+            <li data-color="#009688e5"></li>
+            <li data-color="#03a9f4e5"></li>
+            <li data-color="#a72828e5"></li>
+            <li data-color="#25bc0be5"></li>
+          </ul>
+        </div>
+        <div class="background-option settings-option">
+          <h4>تغيير الخلفية</h4>
+          <div class="adjuster">
+            <span class="yes active" data-background="yes">نعم</span>
+            <span class="no" data-background="no">لا</span>
+          </div>
+        </div>
+        <div class="background-option settings-option">
+          <h4>اظهار النقاط</h4>
+          <div class="handle">
+            <span class="yes active" data-show="yes">نعم</span>
+            <span class="no" data-show="no">لا</span>
+          </div>
+        </div>
+        <button class="reset">اعادة الاعدادات</button>
+      </div>
+      <div class="cogs-container"><i class="fa-solid fa-gear"></i></div>
+    </div>
+    <!-- End Settings -->
+    <!-- Start NavBar -->
+    <div class="nav-bullets"></div>
+    <!-- End NavBar -->
+    <!-- Start Landing Page -->
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <header>
+        <div class="logo">ابو قير للتطوير العقاري</div>
+        <ul class="links">
+          <li>
+            <a href="#" class="active" data-section=".about-us">من نحن</a>
+          </li>
+          <li><a href="#" data-section=".skills">المهارات</a></li>
+          <li><a href="#" data-section=".gallary">بعض الانجازات</a></li>
+          <li><a href="#" data-section=".timeline">تطورنا</a></li>
+          <li><a href="#" data-section=".features">المزايا</a></li>
+          <li><a href="#" data-section=".testimonial">الفريق</a></li>
+          <li><a href="#" data-section=".contact">اتصل بنا</a></li>
+          <i class="fa-solid fa-circle-xmark"></i>
+        </ul>
+        <i class="fa-solid fa-bars-staggered"></i>
+      </header>
+      <div class="intro-text">
+        <h1>نحن <span>مؤسسة</span> مبدعة</h1>
+        <p style="font-size: 25px; font-weight: bold">
+          نحن ابو قير للتطوير العقاري هدفنا دائما السعي وراء ان نكون الافضل في
+          مجال التطوير العقاري
+        </p>
+      </div>
+    </div>
+    <!-- End Landing Page -->
+    <!-- Start About Us -->
+    <div class="container">
+      <div class="about-us">
+        <div class="info-box">
+          <h2>من نحن</h2>
+          <p style="font-size: 22px">
+            مرحبًا بكم في مؤسسة ابوقير للتطوير العقاري، حيث نسعى جاهدين لتحقيق
+            التميز والابتكار في كل عمل نقوم به. نفخر بتقديم أعلى مستويات الجودة
+            والموثوقية في كل مشروع لنضمن رضا عملائنا وتحقيق رؤىهم العقارية بأفضل
+            الطرق الممكنة
+          </p>
+          <a
+            target="_blank"
+            class="tables-link"
+            href="https://seifharaz123.github.io/Abu-Qir-Real-Estate-Development/"
+          >
+            الي قوائمنا
+          </a>
+        </div>
+        <div class="img-box">
+          <img src="/imgs/about.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- End About Us -->
+    <!-- Start Our Skills  -->
+
+    <div class="skills">
+      <div class="container">
+        <h2>المهارات المستخدمة</h2>
+        <div class="skill-box">
+          <div class="skill-name">HTML</div>
+          <div class="skill-progress"><span data-progress="90%"></span></div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">CSS</div>
+          <div class="skill-progress"><span data-progress="75%"></span></div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-progress"><span data-progress="80%"></span></div>
+        </div>
+        <!-- <div class="skill-box">
+          <div class="skill-name">TailWind</div>
+          <div class="skill-progress"><span data-progress="70%"></span></div>
+        </div> -->
+      </div>
+      <!-- End Our Skills  -->
+    </div>
+    <!-- End Our Skills  -->
+    <!-- Start Gallary -->
+    <div class="container">
+      <div class="gallary">
+        <h2>معرض الانجازات</h2>
+        <div class="images-box">
+          <img src="imgs/one.jpg" alt="build 1" />
+          <img src="imgs/two.jpg" alt="build 2" />
+          <img src="imgs/three.jpg" alt="build 3" />
+          <img src="imgs/five.jpg" alt="build 4" />
+          <img src="imgs/six.jpg" alt="build 5" />
+          <img src="imgs/seven.jpg" alt="build 6" />
+          <img src="imgs/eight.jpg" alt="build 7" />
+          <img src="imgs/nine.jpg" alt="build 8" />
+          <img src="imgs/ten.jpg" alt="build 9" />
+        </div>
+      </div>
+    </div>
+    <!-- End Gallary -->
+    <!-- Start TimeLine -->
+    <div class="timeline">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">2022</div>
+
+          <div class="left">
+            <div class="content">
+              <h3>حجر الاساس</h3>
+              <p style="line-height: 1.5">
+                بفخر وإثارة، نعلن وضع حجر الأساس لمؤسسة محمد للتطوير العقاري.
+                هذه اللحظة ليست مجرد بداية، بل هي بداية قصة طموحة للابتكار
+                والتميز في عالم العقارات. بواسطة هذا الحدث التاريخي، نبني أساسًا
+                قويًا يدعم طموحاتنا لتقديم مشاريع استثنائية وتحقيق أحلام
+                العملاء. إنها بداية رحلة جديدة، مليئة بالتحديات والفرص، ونعد بأن
+                نعمل بجد لتحقيق النجاح والتفوق في كل مشروع نقوم به.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="year">2023</div>
+          <div class="right">
+            <div class="content">
+              <h3>اصبحنا روادا في المجال</h3>
+              <p style="line-height: 1.5">
+                بفخر وإثارة، نعلن أننا أصبحنا رواداً في المجال، حيث تحولت رؤيتنا
+                إلى واقع يبهر العالم. بإبداعنا وتميزنا، وبفضل جهود فريقنا
+                المبدع، استطعنا أن نحقق مكانة ريادية تليق بتطلعاتنا وتطلعات
+                عملائنا. إنه لشرف كبير أن نكون جزءًا من هذه الرحلة الملهمة نحو
+                التفوق والتميز، ونعد بأن نستمر في تقديم الإبداع والابتكار في كل
+                خطوة نخطوها
+              </p>
+            </div>
+          </div>
+          <div class="left">
+            <div class="content">
+              <h3>تحديات جديدة</h3>
+              <p style="line-height: 1.5">
+                في ظل عالم متغير بسرعة، نواجه تحديات جديدة تتطلب منا التكيف
+                والابتكار. هذه التحديات تأتي بشكل متواصل، مما يحفزنا على تطوير
+                استراتيجياتنا وتبني حلول جديدة لمواجهتها. بالاعتماد على خبرتنا
+                وتفانينا، نؤمن بأننا قادرون على تحويل هذه التحديات إلى فرص جديدة
+                للنمو والتطور. إنها رحلة ملهمة نسعى من خلالها لتحقيق النجاح رغم
+                التحديات، وبالعمل الجماعي والتفاني، نثبت للعالم أننا قادرون على
+                تحقيق المستحيل.
+              </p>
+            </div>
+          </div>
+
+          <div class="clearfix"></div>
+          <div class="year">2024</div>
+          <div class="right">
+            <div class="content">
+              <h3>الان</h3>
+              <p style="line-height: 1.5">
+                وبينما نلتزم بتحديات الحاضر، فإن خطواتنا القادمة تستند إلى رؤية
+                مستقبلية متطورة. نحن نبني على أسس النجاح الحالي لنصقل
+                استراتيجياتنا ونحدد الأولويات التي توجه خطواتنا المقبلة. سنستمر
+                في الابتكار والتطور، ونسعى لاستكشاف فرص جديدة وتوسيع نطاق
+                أعمالنا. إننا نعتزم أن نكون قادة في مجالنا، متفوقين على التحديات
+                ومتجاوبين مع احتياجات السوق والعملاء. بتوجيهنا نحو الأفق، سنستمر
+                في بناء مستقبل مشرق يجسد تطلعاتنا ويحقق طموحاتنا.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+    <!-- End TimeLine -->
+    <!-- Start Features -->
+    <div class="features">
+      <h2>Our Features</h2>
+      <div class="container">
+        <div class="feat-box">
+          <img src="/imgs/discussion.png" alt="" />
+          <h4>الاراء</h4>
+          <p style="font-size: 17px; font-weight: bold">
+            نفخر بتقديم خدمات تتفوق على توقعات عملائنا، وهذا ما يعكسه ثقتهم
+            ورضاهم الدائم. إن تفانينا في تحقيق الجودة والاهتمام بتلبية
+            احتياجاتهم يظهر في تعليقاتهم الإيجابية والثناء الذي يعبرون عنه.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="/imgs/edit-tools.png" alt="" />
+          <h4>الاساليب</h4>
+          <p style="font-size: 17px; font-weight: bold">
+            نحن نعتمد على أحدث وأفضل أساليب البناء والتشييد في جميع مشاريعنا،
+            حيث نضمن الجودة والمتانة في كل تفاصيل التصميم والتنفيذ.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="/imgs/interface.png" alt="" />
+          <h4>التطور</h4>
+          <p style="font-size: 17px; font-weight: bold">
+            نحن ملتزمون بالتطور والتقدم، ولذلك نسعى دائمًا لاستخدام أفضل
+            التكنولوجيا في أعمالنا. إننا ندرك أن الابتكار التكنولوجي يلعب دورًا
+            حاسمًا في تعزيز كفاءتنا وتحسين جودة خدماتنا.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="/imgs/ux.png" alt="" />
+          <h4>التكنولوجيا</h4>
+          <p style="font-size: 17px; font-weight: bold">
+            نحن نعتبر التكنولوجيا ركيزة أساسية في عملنا، حيث نسعى جاهدين
+            لاستخدام أحدث التقنيات لتحسين كفاءة العمل وتوفير تجارب متميزة
+            لعملائنا.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="/imgs/idea.png" alt="" />
+          <h4>الافكار</h4>
+          <p style="font-size: 17px; font-weight: bold">
+            نحن نعتمد على الأفكار الحديثة والابتكارية كمحرك لنجاحنا وتميزنا في
+            عالم العقارات. نحن نشجع على التفكير الإبداعي والمبتكر، وندعم
+            الاستكشاف المستمر لأفكار جديدة وطرق تقديم مختلفة للحلول.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="/imgs/tools.png" alt="" />
+          <h4>العمالة</h4>
+          <p style="font-size: 17px; font-weight: bold">
+            يشكل المهندسون النخبة الفنية والمهنية في فريقنا، حيث يتحلون بالخبرة
+            والكفاءة في تحليل وتصميم الهياكل والمباني بأعلى معايير الجودة
+            والأمان.
+          </p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!-- End Features -->
+    <!-- Start Testimonial -->
+    <div class="testimonial">
+      <h2>الفريق</h2>
+      <div class="container">
+        <div class="ts-box">
+          <p
+            style="
+              font-weight: bold;
+              text-decoration: underline;
+              font-size: 19px;
+            "
+          >
+            اسم الطالب والكود
+          </p>
+          <div class="info-container">
+            <img src="/imgs/discussion.png" alt="" />
+            <div class="user-info">
+              <h3>سيف سعيد سيف النصر</h3>
+              <span>2020/1085</span>
+            </div>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p
+            style="
+              font-weight: bold;
+              text-decoration: underline;
+              font-size: 19px;
+            "
+          >
+            اسم الطالب والكود
+          </p>
+          <div class="info-container">
+            <img src="/imgs/discussion.png" alt="" />
+            <div class="user-info">
+              <h3>سيف علاء الدين علي</h3>
+              <span>2020/0130</span>
+            </div>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p
+            style="
+              font-weight: bold;
+              text-decoration: underline;
+              font-size: 19px;
+            "
+          >
+            اسم الطالب والكود
+          </p>
+          <div class="info-container">
+            <img src="/imgs/discussion.png" alt="" />
+            <div class="user-info">
+              <h3>شيماء عيد سراج</h3>
+              <span>2020/0973</span>
+            </div>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p
+            style="
+              font-weight: bold;
+              text-decoration: underline;
+              font-size: 19px;
+            "
+          >
+            اسم الطالب والكود
+          </p>
+          <div class="info-container">
+            <img src="/imgs/discussion.png" alt="" />
+            <div class="user-info">
+              <h3>روان احمد يوسف</h3>
+              <span>2020/0453</span>
+            </div>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p
+            style="
+              font-weight: bold;
+              text-decoration: underline;
+              font-size: 19px;
+            "
+          >
+            اسم الطالب والكود
+          </p>
+          <div class="info-container">
+            <img src="/imgs/discussion.png" alt="" />
+            <div class="user-info">
+              <h3>دنيا صلاح مسعود</h3>
+              <span>2020/0902</span>
+            </div>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p
+            style="
+              font-weight: bold;
+              text-decoration: underline;
+              font-size: 19px;
+            "
+          >
+            اسم الطالب والكود
+          </p>
+          <div class="info-container">
+            <img src="/imgs/discussion.png" alt="" />
+            <div class="user-info">
+              <h3>حبيبة ناصر غريب</h3>
+              <span>2020/0136</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Testimonial -->
+    <!--Start Contact Us -->
+    <div class="contact">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form action="">
+          <div class="left">
+            <input type="text" placeholder="Your Name" name="username" />
+            <input type="text" placeholder="Your Phone" name="phone" />
+            <input type="email" placeholder="Your Email" name="email" />
+            <input type="text" placeholder="Subject" name="subject" />
+          </div>
+          <div class="right">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <input type="submit" name="" id="" value="Send All" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <!--End Contact Us -->
+    <!-- Start Footer -->
+    <footer><p>المشرف علي المشروع : د. شرين شوقي</p></footer>
+    <!-- End Footer -->
+    <script src="js/master.js"></script>
+  </body>
+</html>
