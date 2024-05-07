@@ -535,7 +535,7 @@ header i {
   transform: translate(-50%, -50%);
   background-color: white;
   border-radius: 10px;
-  width: 60%;
+  width: fit-content;
   z-index: 11;
   padding: 15px;
   text-align: center;
@@ -550,7 +550,11 @@ header i {
   text-transform: capitalize;
 }
 .img-pop-up img {
-  width: 100%;
+  max-width: 100%;
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+
   border-radius: 5px;
 }
 .img-pop-up .close-btn {
